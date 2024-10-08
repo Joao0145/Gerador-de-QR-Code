@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.js">
+    <title>Gerador de QR Code</title>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</head>
+<body>
+    <h2>Gerador de QR Code em JavaScript</h2>
+
+    <!--Div onde o QR code sera gerado -->
+    <div id="qrcode"></div>
+
+    <!-- Script para gerar o QR Code-->
+
+    <script>
+
+         //Gerar QR Code com um texto
+         new QRCode(document.getElementById("qrcode"), "Aqui vai o seu texto ou URL para o R Code");  
+    </script>
+</body>
+</html>
